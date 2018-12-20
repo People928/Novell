@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* custom */
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden; }
+
+li {
+  list-style: none; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; }
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+html, body {
+  width: 100%; }
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+a {
+  text-decoration: none; }
+
+.container {
+  height: 100vh;
+  background: #f5f5f5; }
+  .container main {
+    height: 92vh;
+    overflow: auto; }
+  .container header {
+    height: 16.25rem;
+    background: #fff; }
+    .container header .back {
+      height: 2.5rem;
+      line-height: 2.5rem;
+      padding-left: 1.25rem;
+      box-sizing: border-box;
+      color: #000; }
+    .container header .book_info {
+      height: 13.125rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .container header .book_info img {
+        width: 5.5625rem;
+        height: 7.40625rem;
+        margin-top: 1.09375rem; }
+      .container header .book_info p {
+        font-size: 1rem;
+        margin-top: 0.84375rem; }
+      .container header .book_info span {
+        font-size: 0.65625rem;
+        color: #6e6e6e;
+        margin-top: 1.09375rem; }
+  .container .book_details {
+    height: 9.21875rem;
+    background: #fff;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    margin-top: 0.46875rem; }
+    .container .book_details p {
+      font-size: 0.875rem;
+      color: #6d7572; }
+      .container .book_details p a {
+        color: #ff5a1f; }
+  .container .check {
+    height: 3.125rem;
+    background: #fff;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    margin-top: 0.46875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+    .container .check p {
+      font-size: 1rem; }
+    .container .check span {
+      display: block;
+      width: 55%;
+      font-size: 0.875rem;
+      color: #6a6a6a; }
+    .container .check div {
+      font-size: 0.625rem; }
+  .container .about_novel {
+    background: #fff;
+    margin-top: 0.46875rem;
+    box-sizing: border-box; }
+    .container .about_novel .title {
+      height: 1.65625rem;
+      line-height: 1.65625rem;
+      font-size: 0.78125rem; }
+    .container .about_novel .novel_list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .container .about_novel .novel_list .item {
+        width: 4.6875rem;
+        height: 8.4375rem;
+        margin-top: 1.09375rem; }
+        .container .about_novel .novel_list .item img {
+          width: 4.5625rem;
+          height: 6.09375rem; }
+        .container .about_novel .novel_list .item span {
+          font-size: 0.6875rem;
+          margin-top: 0.5625rem; }
+  .container footer {
+    height: 8vh;
+    border-top: 1px dotted #ccc;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .container footer a {
+      display: block;
+      width: 7.8125rem;
+      height: 1.40625rem;
+      color: #000;
+      font-size: 0.8125rem;
+      border-right: 1px solid #ccc;
+      text-align: center; }
+    .container footer a:last-child {
+      border: none; }
+    .container footer a:nth-child(2) {
+      color: #ff5a1f; }
+
+/*# sourceMappingURL=bookstore_02.css.map */

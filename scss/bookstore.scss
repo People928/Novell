@@ -1,0 +1,153 @@
+@import "./reset.scss";
+@import "./base.scss";
+.container{
+    // width: px2rem(750px);
+    height: px2rem(1293px);
+    position: relative;
+    // background: #ccc;
+    header{
+        width: 100v;
+        height: px2rem(100px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: px2rem((40px));
+        padding-right:px2rem(40px);
+        padding-top: px2rem(20px);
+        box-sizing: border-box;
+        // background: #000;
+        p{
+            font-size: px2rem(38px);
+            font-weight:bold; 
+        }
+        i{
+           font-weight: bold;
+            font-size: px2rem(40px);
+            color: #000;
+        }
+    }
+    main{
+        width:100vw;
+        height: 85vh;
+        background: #f5f5f5;
+        overflow-y: auto;
+        .template_one{
+            height: px2rem(555px);
+            background: #fff;
+            padding: px2rem(30px) px2rem(30px) px2rem(30px) px2rem(30px);
+            box-sizing: border-box;
+            .img_box{
+                height: px2rem(285px);
+                img{
+                    width: 100%;
+                    // height: 100%;
+                }
+            }
+            .one_list{
+                // width:100vw;
+                height: px2rem(70px);
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                flex-direction:space-around;
+                // flex-wrap: wrap;
+                margin-top: px2rem(35px);
+                align-items: center;
+                
+               
+                li{
+                    width: px2rem(100px);
+                    height: px2rem(65px);
+                    text-align: center;
+                    line-height: px2rem(65px);
+                    margin-right: px2rem(20px);
+                    font-size: px2rem(25px);
+                    border: 1px solid #000;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        
+                    }
+                }
+            }
+        }
+        .template_two{
+            width: 100%;
+           height: px2rem(414px);
+           background: #fff;
+           margin-top: px2rem(18px); 
+           padding: px2rem(20px) px2rem(20px) px2rem(20px) px2rem(20px);
+           box-sizing: border-box;
+           .two_head{
+               width: 100%;
+               height: px2rem(50px);
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               align-items: center;
+               p{
+                   font-size: px2rem(33px);
+               }
+               a{
+                   color: #ff6b36;
+                   text-decoration: none;
+                   font-size: px2rem(24px);
+               }
+           }
+           .two_list{
+               width: 100%;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               margin-top: px2rem(36px);
+               li{
+                   width: px2rem(150px);
+                   height: px2rem(250px);
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: space-between;
+                //    margin-right: px2rem(30px);
+                   img{
+                       width: px2rem(150px);
+                       height: px2rem(198px);
+                   }
+                   p{
+                       font-size: px2rem(24px);
+                   }
+               }
+           }
+        }
+    }
+    footer{
+        width:100vw;
+        height:  7vh;
+        border-top: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        background: #fff;
+        justify-content: space-around;
+        a{
+            text-decoration: none;
+            color: #000;
+            font-size: px2rem(30px);
+            .red{
+                width: 100%;
+                height: 2px;
+                background: #f00;
+                opacity: 0;
+            }
+          
+        }
+        a:nth-child(2) .red{
+            opacity: 1;
+        }
+        i{
+            font-size: px2rem(30px);
+
+        }
+    }
+}

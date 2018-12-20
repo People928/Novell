@@ -1,0 +1,24 @@
+@function px2rem($px){
+	$rem:32px;
+	@return($px/$rem)+rem;
+}
+
+@mixin text-clamp($lines: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-line-clamp: $lines;
+  }
+//   使用几倍图
+  @mixin bg-image($url) {
+    background-image:url($url+'@2x.png');
+    @media (-webkit-min-device-pixel-ratio:3),(min-device-pixe-ratio:3){
+        background-image: url($url+"@3x.png");
+    }
+}
+  a{
+      text-decoration: none;
+  }

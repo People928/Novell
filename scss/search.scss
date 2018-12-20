@@ -1,0 +1,99 @@
+@import "./reset.scss";
+@import "./base.scss";
+.container{
+    height:  100vh;
+    padding-left:px2rem(34px);
+    padding-right:px2rem(34px);
+    padding-top: px2rem(20px);
+    box-sizing: border-box;
+    header{
+        // width: px2rem(682px);
+        height: px2rem(60px);
+        background: #000;
+        background: #f5f5f5;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: px2rem(17px);
+        box-sizing: border-box;
+        justify-content: space-between;
+        input{
+            width: 80%;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+        a{
+            font-size: px2rem(24px);
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    main{
+        text-align: center;
+        .hot{
+            // width: px2rem(682px);
+            height: px2rem(380px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                font-size: px2rem(22px);
+                margin-top: px2rem(63px);
+            }
+            .hot_list{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                li{
+                    margin-right: px2rem(54px);
+                    margin-top: px2rem(64px);
+
+                }
+                a{
+                    color: #000;
+                    font-size: px2rem(27px);
+                    text-decoration:none;
+                }
+            }
+        }
+        .search{
+            // width: px2rem(682px);
+            height: px2rem(172px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+
+            p{
+                font-size: px2rem(23px);
+            }
+            .search_list{
+                // width: px2rem(682px);
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                li{
+                    align-self:flex-start;
+                    margin-right: px2rem(54px);
+                    margin-top: px2rem(64px);
+
+                }
+                a{
+                    color: #000;
+                    font-size: px2rem(27px);
+                    text-decoration:none;
+                }
+            }
+        }
+        .del{
+            font-size: px2rem(28px);
+            color:#b3b3b3 ;   
+            margin-top: px2rem(36px);
+        }
+    }
+
+}
